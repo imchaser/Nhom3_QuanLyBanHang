@@ -1,0 +1,73 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper
+{
+    width: 100%;
+    margin: auto;
+}
+
+#header
+{
+    width: 100%;
+    height: 25%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+#body
+{
+    position: absolute;
+    top: 25%;
+    float: left;
+    width: 100%;
+    height: 75%;
+}
+
+#leftContent
+{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    left: 0px;
+    box-shadow: 3px 3px 6px #000;
+}
+
+#rightContent
+{
+    margin-left: 24%;
+    padding-top: 30px;
+}
+
+#menu
+{
+    height: 100%;
+}
+
+.mnitems
+{
+    height: 12.5%;
+    cursor: pointer;
+    border-bottom: 1px solid #808080;
+}
+
+    .mnitems:hover a
+    {
+        background: #7abef1;
+        display: block;
+    }
+
+    .mnitems a
+    {       
+        height: 100%;
+        color: #000;
+        padding-left: 30px;
+        display: block;
+        text-decoration: none;
+        line-height:5;
+    }

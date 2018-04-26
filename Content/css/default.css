@@ -1,0 +1,125 @@
+﻿td
+{
+    width: 20%;
+    text-align: center;
+}
+
+.imgsp
+{
+    width: 100%;
+    background:#fff;
+    height: 70%;
+}
+
+img
+{
+    width:70%;
+}
+
+.description
+{
+    height:25%;
+    width:100%;
+}
+.sp
+{
+    border: 1px solid #808080;
+    width: 90%;
+    height: 360px;
+    box-shadow: 2px 2px 4px #000;
+    margin-bottom:20px;
+}
+.btn
+{
+    height:49px;
+}
+
+.button
+{
+    margin: 15px 0px;
+    width: 70px;
+    display: none;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.sp:hover img
+{
+    width: 82%;
+}
+
+.tensp
+{
+    font-size: 20px;
+}
+
+.gia
+{
+    font-weight: bold;
+    color: #f00;
+}
+
+.editsp
+{
+    padding-left: 10px;
+    text-align: left;
+    border: 1px solid #808080;
+    width: 90%;
+    height: 430px;
+    box-shadow: 2px 2px 4px #000;
+    
+}
+
+.button2
+{  
+    margin: 10px 0px;
+    width: 70px;
+    height: 25px;
+    border: 1px solid #000;
+}
+
+    .button2:hover
+    {
+        cursor: pointer;
+        background: #82eef1;
+    }
+
+.textfield
+{
+    line-height: 25px;
+    width: 92%;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.iserttf
+{
+    line-height: 25px;
+    width: 50%;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    float: right;
+    margin-right: 20px;
+}
+
+.insert-tr td
+{
+    text-align: left;
+}
+
+.pager
+{
+    margin: 10px 0px;
+    width: 40px;
+    height: 25px;
+    border: 1px solid #000;
+}
+
+.content
+{
+    width: 100%;
+}

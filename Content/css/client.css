@@ -1,0 +1,42 @@
+﻿.mid
+{
+    text-align: left;
+    padding-left: 40px;
+}
+
+td
+{
+    text-align: center;
+}
+
+.button
+{
+    width: 60px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+    .button:hover
+    {
+        cursor: pointer;
+    }
+
+tr
+{
+    line-height: 50px;
+}
+table
+{
+    width:90%;
+}
+input
+{
+    width:90%;
+    line-height:20px;
+}
+.pager
+{
+    width: 60px;
+    height: 25px;
+    margin-left: 10px;
+}
