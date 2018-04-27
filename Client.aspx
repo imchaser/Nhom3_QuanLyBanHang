@@ -2,7 +2,7 @@
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <link type="text/css" rel="stylesheet" href="Content/css/client.css">
-    <div style="background: #ffd800; color: white">
+  
         <hgroup class="title">
             <h2>Quản lý khách hàng</h2>
         </hgroup>
@@ -10,12 +10,12 @@
         <div style="width: 100%; text-align: center">
             <asp:ListView ID="ListView1" runat="server" DataKeyNames="id" DataSourceID="SqlDataSource1" InsertItemPosition="LastItem">
                 <AlternatingItemTemplate>
-                    <tr style="background: #f00">
+                    <tr >
                         <td>
                             <asp:Button CssClass="button" ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" />
                             <asp:Button CssClass="button" ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
                         </td>
-                        <td style="color: white; font-weight: bold">
+                        <td >
                             <asp:Label ID="idLabel" runat="server" Text='<%# Eval("id") %>' />
                         </td>
                         <td class="mid">
@@ -66,7 +66,7 @@
                     </tr>
                 </InsertItemTemplate>
                 <ItemTemplate>
-                    <tr style="">
+                    <tr style="color:yellow; font-weight:bold">
                         <td>
                             <asp:Button CssClass="button" ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" />
                             <asp:Button CssClass="button" ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
@@ -140,5 +140,5 @@
                 </UpdateParameters>
             </asp:SqlDataSource>
         </div>
-    </div>
+   
 </asp:Content>
