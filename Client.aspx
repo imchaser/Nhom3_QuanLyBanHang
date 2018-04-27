@@ -10,7 +10,7 @@
         <div style="width: 100%; text-align: center">
             <asp:ListView ID="ListView1" runat="server" DataKeyNames="id" DataSourceID="SqlDataSource1" InsertItemPosition="LastItem">
                 <AlternatingItemTemplate>
-                    <tr >
+                    <tr style="background:#808080">
                         <td>
                             <asp:Button CssClass="button" ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" />
                             <asp:Button CssClass="button" ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
@@ -26,6 +26,7 @@
                         </td>
                     </tr>
                 </AlternatingItemTemplate>
+
                 <EditItemTemplate>
                     <tr style="">
                         <td>
@@ -66,7 +67,7 @@
                     </tr>
                 </InsertItemTemplate>
                 <ItemTemplate>
-                    <tr style="color:yellow; font-weight:bold">
+                    <tr style="color:yellow; font-weight:bold; background:#808080">
                         <td>
                             <asp:Button CssClass="button" ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" />
                             <asp:Button CssClass="button" ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
