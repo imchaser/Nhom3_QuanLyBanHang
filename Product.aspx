@@ -4,7 +4,7 @@
     <link type="text/css" rel="stylesheet" href="Content/css/product.css">
     <hgroup class="title">
     </hgroup>
-    <div class="content" style="background:#808080">
+    <div class="content" style="">
         <div id="laptop">
             <asp:ListView ID="ListView1" runat="server" DataKeyNames="id" DataSourceID="SqlDataSource1" GroupItemCount="3" InsertItemPosition="LastItem">
                 <AlternatingItemTemplate>
